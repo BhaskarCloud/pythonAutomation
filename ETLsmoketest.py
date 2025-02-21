@@ -9,7 +9,6 @@ def test_checkDuplicates():
 
 # test if target is not blank
 def test_DataCompletenss():
-
     target_df = pd.read_csv('target.csv')
     assert not target_df.empty,"Target file is empty- please verify the ETL process"
 
